@@ -1,0 +1,22 @@
+.container{
+  width: 90%;
+  max-width: 600px;
+  justify-content: center;
+  color: white;
+}
+
+.container > span{
+  display: block;
+  margin-top: 1rem;
+}
+
+.containerHeader{
+  text-align: right;
+}
+
+.backButton{
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}

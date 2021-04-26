@@ -1,0 +1,35 @@
+.loginContainer{
+  width: 100vw;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+}
+
+.loginContainer > div{
+  width: 50%;
+}
+
+.loginInformation{
+  background-color: var(--secondary);
+  color: var(--secondary-dark);
+}
+
+.loginInformationIcon{
+  font-size: 130px;
+  margin-top: 3rem;
+}
+
+.loginForm{
+  background-color: var(--primary);
+}
+
+@media (max-width: 650px){
+
+  .loginInformation{
+    display: none;
+  }
+
+  .loginContainer > div{
+    width: 100%;
+  }
+}

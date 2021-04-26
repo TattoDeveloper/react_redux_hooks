@@ -1,0 +1,12 @@
+export const LOADING = 'loading';
+export const LOGIN_ATTEMP = 'login_attemp';
+export const LOGIN_SUCCESS = 'login_success';
+export const LOGIN_FAILED = 'login_failed';
+export const DATA_LOAD_ATTEMP = "data_load_attemp"
+export const DATA_LOAD_SUCCESS = "data-load-success"
+export const DATA_LOAD_FAILED= "data-load-success"
+export const EDIT_PROFILE_START = "edit_profile_start"
+export const EDIT_PROFILE_ATTEMP = "edit_profile_attemp"
+export const EDIT_PROFILE_SUCCESS = "edit_profile_success"
+export const EDIT_PROFILE_FAILED= "edit_profile_failed"
+export const LOGOUT = "logout"

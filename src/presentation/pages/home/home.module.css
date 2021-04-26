@@ -1,0 +1,35 @@
+.homeContainer{
+  width: 100vw;
+  height: 100vh;
+  background: var(--primary);
+  background: linear-gradient(3deg, rgba(35,47,65,1) 0%, rgba(47,64,84,1) 35%, rgba(57,75,99,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeUserInfo{
+  width: 90%;
+  height: 70vh;
+  max-width: 700px;
+  max-height: 500px;
+  border-radius: 10px;
+  box-shadow:0  3px 18px -7px   rgba(0,0,0,.6);
+  background-color: var(--primary-dark);
+  text-align: center;
+  position: relative;
+}
+
+.homeUserInfo p, .homeUserInfo h2{
+  color: white;
+}
+.homeUserInfo h2{
+  margin-bottom: 2.4rem;
+  font-size: 2rem;
+}
+
+.homeUserInfoAvatar{
+  color: white;
+  font-size: 150px;
+  margin: 1rem 0 2rem;
+}

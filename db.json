@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": "4fb043e5-5ee3-4148-a1b9-462f1ba3eb08",
+      "userName": "Jota6",
+      "password": "33333333"
+    },
+    {
+      "id": "79b5f8ea-f87c-496b-8377-20d4c8aacaae",
+      "userName": "User2",
+      "password": "79b5f8ea"
+    }
+  ]
+}
